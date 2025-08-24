@@ -1,4 +1,4 @@
-#📩 Spam Detection Model
+<h1>📩 Spam Detection Model</h1>
 
 A Machine Learning model that classifies SMS messages as 📬 Ham (Not Spam) or 🚨 Spam using NLP techniques and Multinomial Naive Bayes.
 
@@ -14,7 +14,7 @@ A Machine Learning model that classifies SMS messages as 📬 Ham (Not Spam) or 
 
 🔠 vectorizer.pkl → TF-IDF vectorizer for text preprocessing
 
-#**⚙️ How to Use**
+<h1>**⚙️ How to Use**</h1>
 Clone the repo
 
 git clone https://github.com/your-username/spam-detection-model.git 
@@ -33,7 +33,7 @@ prediction = model.predict(vectorizer.transform(text))
 
 print(prediction)
 
-#**🚀 Future Upgrades**
+<h1>**🚀 Future Upgrades**</h1>
 
 🌐 Backend integration (Flask/FastAPI)
 
@@ -41,7 +41,7 @@ print(prediction)
 
 ☁️ Deploy online
 
-#**📜 License**
+<h1>**📜 License**</h1>
 
  Open source under the MIT License.
 
