@@ -18,6 +18,19 @@ A Machine Learning model that classifies SMS messages as 📬 Ham (Not Spam) or 
 
 <hr>
 
+<h1>📂 Project Structure</h1>
+Spam-Detection-ML/
+├── 📄 README.md           # Project documentation
+├── 📄 spam_model.pkl      # Trained machine learning model
+├── 📄 vectorizer.pkl      # Saved text vectorizer for preprocessing
+├── 📄 notebook.ipynb      # Jupyter/Colab notebook with training code
+├── 📂 dataset/            # (Optional) Folder for datasets
+│   └── spam.csv           # Example dataset file
+├── 📂 requirements/       # (Optional) Store dependency files
+│   └── requirements.txt   # Python libraries used
+
+<hr>
+
 <h1>⚙️ How to Use</h1>
 Clone the repo
 
