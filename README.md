@@ -1,48 +1,38 @@
-Email Spam Classifier
+📩 Spam Detection Model
 
-A simple machine learning model to classify emails as Spam or Not Spam using Logistic Regression and TF-IDF vectorization.
+A Machine Learning model that classifies SMS messages as 📬 Ham (Not Spam) or 🚨 Spam using NLP techniques and Multinomial Naive Bayes.
 
-Features
+📊 Accuracy
 
-Converts email text into numerical format using TF-IDF.
+✅ ~98%
 
-Trained Logistic Regression model for classification.
+📂 Files in this Repo
 
-Achieves around 96% accuracy on test data.
+📝 notebook79952c767c.ipynb → Training & evaluation code
 
-Setup
+🤖 spam_model.pkl → Trained model file
 
-Run the following command to install required libraries:
-**pip install pandas scikit-learn**
-Usage
+🔠 vectorizer.pkl → TF-IDF vectorizer for text preprocessing
+# Clone the repo
+git clone https://github.com/your-username/spam-detection-model.git
+cd spam-detection-model
+import pickle
 
-Load the trained model and vectorizer using pickle.
+model = pickle.load(open('spam_model.pkl', 'rb'))
+vectorizer = pickle.load(open('vectorizer.pkl', 'rb'))
 
-Convert the input email text into numerical format using the vectorizer.
+text = ["You won a free iPhone!"]
+prediction = model.predict(vectorizer.transform(text))
+print(prediction)
+🚀 Future Upgrades
 
-Pass the transformed text to the model to get predictions.
+🌐 Backend integration (Flask/FastAPI)
 
-The model will return either "Spam" or "Not Spam".
+💻 Simple web UI
 
-Example workflow:
+☁️ Deploy online
 
-Load model and vectorizer.
+📜 License
 
-Transform the email text with TF-IDF.
+🆓 Open source under the MIT License.
 
-Use model.predict() to get the classification.
-
-📊 Model Performance
-Metric	Score
-Accuracy	96%
-Precision	95%
-Recall	94%
-F1-score	94%
-
-🔮 Future Work
-
-Experiment with more advanced algorithms like Random Forest or BERT.
-
-Expand dataset for better generalization.
-
-Implement email preprocessing for multilingual support.
