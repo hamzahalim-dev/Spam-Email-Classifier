@@ -14,7 +14,7 @@ A Machine Learning model that classifies SMS messages as 📬 Ham (Not Spam) or 
 
 🔠 vectorizer.pkl → TF-IDF vectorizer for text preprocessing
 
-<h1>**⚙️ How to Use**</h1>
+<h1>⚙️ How to Use</h1>
 Clone the repo
 
 git clone https://github.com/your-username/spam-detection-model.git 
@@ -33,7 +33,7 @@ prediction = model.predict(vectorizer.transform(text))
 
 print(prediction)
 
-<h1>**🚀 Future Upgrades**</h1>
+<h1>🚀 Future Upgrades</h1>
 
 🌐 Backend integration (Flask/FastAPI)
 
@@ -41,7 +41,7 @@ print(prediction)
 
 ☁️ Deploy online
 
-<h1>**📜 License**</h1>
+<h1>📜 License</h1>
 
  Open source under the MIT License.
 
