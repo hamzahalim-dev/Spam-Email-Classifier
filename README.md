@@ -13,8 +13,6 @@ A simple **machine learning model** to classify emails as **Spam** or **Not Spam
 
 ## Setup
 ```bash
-pip install pandas scikit-learn
-Usage
 import pickle
 
 # Load model and vectorizer
@@ -37,5 +35,3 @@ Experiment with more advanced algorithms like Random Forest or BERT.
 Expand dataset for better generalization.
 
 Implement email preprocessing for multilingual support.
-
-
