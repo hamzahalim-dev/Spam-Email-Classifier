@@ -6,6 +6,8 @@ A Machine Learning model that classifies SMS messages as 📬 Ham (Not Spam) or 
 
 ✅ ~98%
 
+<hr>
+
 📂 Files in this Repo
 
 📝 notebook79952c767c.ipynb → Training & evaluation code
@@ -13,6 +15,8 @@ A Machine Learning model that classifies SMS messages as 📬 Ham (Not Spam) or 
 🤖 spam_model.pkl → Trained model file
 
 🔠 vectorizer.pkl → TF-IDF vectorizer for text preprocessing
+
+<hr>
 
 <h1>⚙️ How to Use</h1>
 Clone the repo
@@ -33,6 +37,9 @@ prediction = model.predict(vectorizer.transform(text))
 
 print(prediction)
 
+<hr>
+
+
 <h1>🚀 Future Upgrades</h1>
 
 🌐 Backend integration (Flask/FastAPI)
@@ -40,6 +47,9 @@ print(prediction)
 💻 Simple web UI
 
 ☁️ Deploy online
+
+<hr>
+
 
 <h1>📜 License</h1>
 
